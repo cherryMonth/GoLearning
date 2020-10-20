@@ -9,7 +9,7 @@ import (
 func countLines(f *os.File, counts map[string]int) {
 	input := bufio.NewScanner(f)
 	for input.Scan() {
-		counts[input.Text()] ++
+		counts[input.Text()]++
 	}
 }
 
@@ -17,7 +17,7 @@ func main() {
 	counts := make(map[string]int)
 	input := bufio.NewScanner(os.Stdin)
 	for input.Scan() && input.Text() != "end" {
-		counts[input.Text()] ++
+		counts[input.Text()]++
 	}
 
 	for line, n := range counts {
