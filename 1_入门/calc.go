@@ -1,9 +1,9 @@
 package main
 
 import (
-	"1_入门/simple"
 	"fmt"
 	"strconv"
+	"入门/1_入门/simple"
 )
 
 func main() {
@@ -22,3 +22,7 @@ func main() {
 
 	fmt.Println(v1)
 }
+
+/*
+本节主要是熟悉了Go的引用机制，详情请参考博客 https://www.webook.mobi/display/347
+*/

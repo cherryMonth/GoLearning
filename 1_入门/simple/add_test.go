@@ -10,3 +10,7 @@ func TestAdd(t *testing.T) {
 		t.Error("error ")
 	}
 }
+
+/*
+Go的测试代码
+*/
